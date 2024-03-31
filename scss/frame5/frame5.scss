@@ -1,0 +1,26 @@
+.frame5 { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCD0BA;
+    h1 {
+        font-size: 5vw;
+        width: 60vw;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    p {
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        text-align: center;
+        color: #fff;
+        background-color: black;
+        border: 1vw solid black;
+        border-radius: 2vw;
+        font-size: 1vw;
+        width: 15vw;
+    }
+    a {
+        text-decoration: none;
+    }
+}
