@@ -1,0 +1,18 @@
+.footer {
+  padding: 3vw;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+.footer p {
+  color: #FFF;
+  line-height: 2vw;
+  font-size: 1vw;
+}
+.footer img {
+  height: 3vw;
+}
+.footer a {
+  text-decoration: none;
+  color: #FFF;
+}/*# sourceMappingURL=footer.css.map */
