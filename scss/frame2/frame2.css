@@ -1,0 +1,40 @@
+.frame2 {
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.frame2 p {
+  text-transform: uppercase;
+  font-size: 1vw;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  margin-top: 1.5vw;
+}
+
+.grid-one {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 1.5vw;
+  margin: auto;
+  grid-template-areas: "grid-one__item-1 grid-one__item-1" "grid-one__item-2 grid-one__item-4" "grid-one__item-3 grid-one__item-4";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-one .grid-one__item-1 {
+  width: 100%;
+  grid-area: grid-one__item-1;
+}
+.grid-one .grid-one__item-2 {
+  width: 100%;
+  grid-area: grid-one__item-2;
+}
+.grid-one .grid-one__item-3 {
+  width: 100%;
+  grid-area: grid-one__item-3;
+}
+.grid-one .grid-one__item-4 {
+  width: 100%;
+  grid-area: grid-one__item-4;
+}/*# sourceMappingURL=frame2.css.map */
