@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+.logo_img {
+    width: 10vw;
+    margin: 1vw;
+}
+.menu {
+    margin: 1vw;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        &:hover {
+            color: #FDD0BB;
+        }
+    }
+}
